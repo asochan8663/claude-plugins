@@ -55,7 +55,7 @@ super-planのPLAN_TEMPLATE.md形式に従った承認済み設計書。
 
 2. テスト環境:
    - 外部通知（Slack/Email/Webhook）がある → テストチャネル必須
-   - Slack → #通知テスト (${SLACK_TEST_CHANNEL}) をデフォルトに設定
+   - Slack → テストチャネル (${SLACK_TEST_CHANNEL}) をデフォルトに設定
    - 本番チャネルへの送信はowner承認後のみ
 
 3. Secret/権限:
