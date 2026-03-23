@@ -39,7 +39,7 @@ health_config: "tools/health_config.json"
 # パス
 active_tasks_path: "${TASK_TRACKER_PATH}"
 memory_path: "MEMORY.md"
-user_memory_dir: "~/.claude/projects/-Users-asouyuki-Desktop-ai-company/memory/"
+user_memory_dir: "~/.claude/projects/${PROJECT_PATH}/memory/"
 knowledge_dir: "${KNOWLEDGE_DIR}/"
 decisions_dir: "${KNOWLEDGE_DIR}/"
 skills_dir: ".claude/skills/"
