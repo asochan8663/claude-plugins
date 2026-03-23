@@ -11,19 +11,17 @@ Production-grade skills for quality defense, workflow automation, skill creation
 /plugin install super-plan@asochan-ai
 ```
 
-## Skills (22)
+## Skills (19)
 
-### Workflow (6)
+### Workflow (4)
 | Skill | What it does |
 |-------|-------------|
 | **super-plan** | 4 parallel research agents → evidence-based design doc → approval gate |
 | **rapid-build** | Execute approved plans with baseline reuse and quality gates |
-| **start** | Branch creation, state check, workspace prep |
-| **ship** | Security check → verification → merge and push |
 | **execution-strategy** | Auto-select optimal execution method after planning |
 | **multi-agent** | Parallelize 5+ tasks with Agent Teams |
 
-### Zero Leak Quality Defense (7)
+### Zero Leak Quality Defense (6)
 | Skill | Layer | What it does |
 |-------|-------|-------------|
 | **pre-check** | L1 | Map blast radius before starting |
@@ -32,7 +30,6 @@ Production-grade skills for quality defense, workflow automation, skill creation
 | **leak-learner** | L5 | Semi-auto learning from user corrections |
 | **auto-test** | — | Auto-detect and run test frameworks |
 | **security-audit** | — | 3-stage audit with parallel attacker agents |
-| **verify** | — | Project-wide quality gate |
 
 ### Skill Creation (2)
 | Skill | What it does |
