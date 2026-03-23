@@ -1,0 +1,39 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "asochan-ai",
+  "description": "Production-grade Claude Code skills for quality, security, and workflow automation. Works on 35+ platforms.",
+  "owner": {
+    "name": "asochan-ai",
+    "url": "https://github.com/asochan8663"
+  },
+  "plugins": [
+    {
+      "name": "auto-test",
+      "source": "./plugins/auto-test",
+      "description": "Auto-detect test frameworks and run tests. Supports pytest, vitest, jest, go test, cargo test.",
+      "version": "1.0.0",
+      "category": "development"
+    },
+    {
+      "name": "quality-rules",
+      "source": "./plugins/quality-rules",
+      "description": "Zero Leak L2: Enforce quality rules during implementation. Shift-left quality — write it right the first time.",
+      "version": "1.0.0",
+      "category": "development"
+    },
+    {
+      "name": "pre-check",
+      "source": "./plugins/pre-check",
+      "description": "Zero Leak L1: Map blast radius, quality rules, and past incidents before starting any task.",
+      "version": "1.0.0",
+      "category": "development"
+    },
+    {
+      "name": "security-audit",
+      "source": "./plugins/security-audit",
+      "description": "3-stage security audit: pattern scan + dependency check + AI attacker analysis with parallel agents.",
+      "version": "1.0.0",
+      "category": "security"
+    }
+  ]
+}
