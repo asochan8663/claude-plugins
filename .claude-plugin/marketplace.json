@@ -139,6 +139,27 @@
       "description": "Generate SVG diagrams with type x color design system.",
       "version": "1.0.0",
       "category": "content"
+    },
+    {
+      "name": "ready",
+      "source": "./plugins/ready",
+      "description": "Prepare workspace: branch, status, prior work check.",
+      "version": "1.0.0",
+      "category": "workflow"
+    },
+    {
+      "name": "launch-check",
+      "source": "./plugins/launch-check",
+      "description": "Quality gate before merge: test, security audit, approval, push.",
+      "version": "1.0.0",
+      "category": "workflow"
+    },
+    {
+      "name": "health-check",
+      "source": "./plugins/health-check",
+      "description": "Project-wide health check: git, PRs, security scan.",
+      "version": "1.0.0",
+      "category": "workflow"
     }
   ]
 }
