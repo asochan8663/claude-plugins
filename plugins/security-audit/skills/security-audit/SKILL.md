@@ -1,7 +1,9 @@
 ---
 name: security-audit
 description: プロジェクトのセキュリティ監査を実行するスキル。パターンスキャン + 依存関係チェック + AI攻撃者分析の3段階。「セキュリティ」「脆弱性」「監査」「security」等のトリガー、または /ship 実行前に自動起動。
----
+xx
+
+> **Disclaimer**: This skill is designed for defensive security testing within your own projects. The attack patterns described are common knowledge in the security community (OWASP, CWE). Use responsibly and only on systems you own or have explicit authorization to test.
 
 # Security Audit Skill
 
