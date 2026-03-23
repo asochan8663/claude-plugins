@@ -29,15 +29,15 @@
       "category": "workflow"
     },
     {
-      "name": "multi-agent",
-      "source": "./plugins/multi-agent",
+      "name": "parallel-tasks",
+      "source": "./plugins/parallel-tasks",
       "description": "Parallelize 5+ independent tasks with Agent Teams.",
       "version": "1.0.0",
       "category": "workflow"
     },
     {
-      "name": "pre-check",
-      "source": "./plugins/pre-check",
+      "name": "risk-scan",
+      "source": "./plugins/risk-scan",
       "description": "Zero Leak L1: Map blast radius before starting any task.",
       "version": "1.0.0",
       "category": "quality"
@@ -50,8 +50,8 @@
       "category": "quality"
     },
     {
-      "name": "safety-net",
-      "source": "./plugins/safety-net",
+      "name": "review-guard",
+      "source": "./plugins/review-guard",
       "description": "Zero Leak L3: Independent inspector before presenting to user.",
       "version": "1.0.0",
       "category": "quality"
@@ -64,15 +64,15 @@
       "category": "quality"
     },
     {
-      "name": "auto-test",
-      "source": "./plugins/auto-test",
+      "name": "test-runner",
+      "source": "./plugins/test-runner",
       "description": "Auto-detect and run test frameworks.",
       "version": "1.0.0",
       "category": "quality"
     },
     {
-      "name": "security-audit",
-      "source": "./plugins/security-audit",
+      "name": "security-scan",
+      "source": "./plugins/security-scan",
       "description": "3-stage security audit with parallel attacker agents.",
       "version": "1.0.0",
       "category": "security"
@@ -141,22 +141,22 @@
       "category": "content"
     },
     {
-      "name": "kickoff",
-      "source": "./plugins/kickoff",
+      "name": "prep-workspace",
+      "source": "./plugins/prep-workspace",
       "description": "Prepare workspace: branch, status, prior work check.",
       "version": "1.0.0",
       "category": "workflow"
     },
     {
-      "name": "launch-check",
-      "source": "./plugins/launch-check",
+      "name": "merge-guard",
+      "source": "./plugins/merge-guard",
       "description": "Quality gate before merge: test, security audit, approval, push.",
       "version": "1.0.0",
       "category": "workflow"
     },
     {
-      "name": "health-check",
-      "source": "./plugins/health-check",
+      "name": "project-checkup",
+      "source": "./plugins/project-checkup",
       "description": "Project-wide health check: git, PRs, security scan.",
       "version": "1.0.0",
       "category": "workflow"

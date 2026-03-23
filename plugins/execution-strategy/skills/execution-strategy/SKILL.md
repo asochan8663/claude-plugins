@@ -326,7 +326,7 @@ cmux runbook/meeting-agent
 想定所要時間: 3-5営業日（セットアップ0.5日 + 並列実行）
 
 実行方法:
-/multi-agent CRM全体実装（タスク#1-#70）
+/parallel-tasks CRM全体実装（タスク#1-#70）
 ```
 
 ---
@@ -386,7 +386,7 @@ Task(
 - [MEMORY.md](../../memory/MEMORY.md) — 過去の実行方法の実績・教訓
 - [ACTIVE_TASKS.md](../../../${TASK_TRACKER}) — タスク管理
 - [cmux ドキュメント](../using-git-worktrees/SKILL.md) — cmux の使い方
-- [multi-agent skill](../multi-agent/SKILL.md) — Agent Team の使い方
+- [parallel-tasks skill](../parallel-tasks/SKILL.md) — Agent Team の使い方
 
 ## 設計原則
 
@@ -436,7 +436,7 @@ N/A -- 外部通信・認証なし。ローカルファイル（PLAN_*.md, ACTIV
 | super-plan | 前工程 | super-plan完了後に本スキルで実行方法を判定 |
 | writing-plans | 前工程 | プラン策定完了後に本スキルで実行方法を判定 |
 | rapid-build | 後工程 | cmux/シングルエージェント推奨時に起動 |
-| multi-agent | 後工程 | Agent Team推奨時にチーム構成・タスク分割を実行 |
+| parallel-tasks | 後工程 | Agent Team推奨時にチーム構成・タスク分割を実行 |
 | using-git-worktrees | 後工程 | cmux推奨時にgit worktree並列実行を開始 |
 | dispatching-parallel-agents | 後工程 | Subagent推奨時に並列エージェント起動 |
 | leak-learner | 学習 | owner指摘をlessons/に記録 |
@@ -452,7 +452,7 @@ N/A -- 外部通信・認証なし。ローカルファイル（PLAN_*.md, ACTIV
 | super-plan | 前工程 | super-plan完了後に本スキルで実行方法を判定 |
 | writing-plans | 前工程 | プラン策定完了後に本スキルで実行方法を判定 |
 | rapid-build | 後工程 | cmux/シングルエージェント推奨時に起動 |
-| multi-agent | 後工程 | Agent Team推奨時にチーム構成・タスク分割を実行 |
+| parallel-tasks | 後工程 | Agent Team推奨時にチーム構成・タスク分割を実行 |
 | using-git-worktrees | 後工程 | cmux推奨時にgit worktree並列実行を開始 |
 | dispatching-parallel-agents | 後工程 | Subagent推奨時に並列エージェント起動 |
 | leak-learner | 学習 | owner指摘をlessons/に記録 |

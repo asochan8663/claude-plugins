@@ -647,7 +647,7 @@ browser-use --session {name} close
 | slack-pr-notify | 後工程 | Slack App設定後にPR通知を有効化 |
 | youtube-analytics | 前工程 | YouTube APIトークン取得がyoutube-analytics実行の前提 |
 | cost-monitor | 前工程 | GCPサービスアカウント設定がcost-monitor実行の前提 |
-| security-audit | 並列 | 新サービス連携時にセキュリティ監査を推奨 |
+| security-scan | 並列 | 新サービス連携時にセキュリティ監査を推奨 |
 
 ## やらないこと
 
@@ -690,7 +690,7 @@ browser-use --session {name} close
 | slack-pr-notify | 後工程 | Slack App設定後にPR通知を有効化 |
 | youtube-analytics | 前工程 | YouTube APIトークン取得がyoutube-analytics実行の前提 |
 | cost-monitor | 前工程 | GCPサービスアカウント設定がcost-monitor実行の前提 |
-| security-audit | 並列 | 新サービス連携時にセキュリティ監査を推奨 |
+| security-scan | 並列 | 新サービス連携時にセキュリティ監査を推奨 |
 | leak-learner | 学習 | owner指摘をlessons/に記録。2+スキル共通パターンはGlobal rulesに昇格 |
 
 > 合成可能性セクションの内容を連携テーブルに統合し、leak-learner行を追加。

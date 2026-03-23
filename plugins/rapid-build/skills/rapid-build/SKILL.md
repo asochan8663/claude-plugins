@@ -104,7 +104,7 @@ IF parallelizable <= 3 AND unique_dirs <= 2:
   → シングルエージェント実行（マルチエージェントのオーバーヘッドを回避）
 
 ELSE IF parallelizable >= 3 AND unique_dirs >= 2:
-  → マルチエージェント実行（multi-agentスキルを呼び出し）
+  → マルチエージェント実行（parallel-tasksスキルを呼び出し）
   → チームサイズ = min(4, ceil(parallelizable / 3))
 
 ELSE:
@@ -134,7 +134,7 @@ test -f {config_path} && git log --oneline -1 -- {config_path}
 各タスク完了後にStep 5の品質ゲートを実行。
 
 **マルチエージェントモード:**
-multi-agentスキルを呼び出す。各チームメイトのspawnプロンプトに以下を埋め込む:
+parallel-tasksスキルを呼び出す。各チームメイトのspawnプロンプトに以下を埋め込む:
 
 ```
 品質ゲートルール（タスク完了報告の前に実行すること）:
@@ -217,11 +217,11 @@ rapid-build 完了:
 |-----------|------|---------|
 | super-plan | 前工程 | rapid-buildが消費する設計書を生成する |
 | execution-strategy | 前工程 | 推奨方式に応じて起動。cmux/シングルエージェント推奨時にrapid-buildが選択される |
-| multi-agent | 並列実行 | 並列実行が有益な場合にrapid-buildから呼び出される |
-| security-audit | Step 6 | 包括的スキャンのためにrapid-buildから呼び出される |
-| auto-test | Step 7 | ビルド/テスト実行時に自動テストスキルを利用 |
+| parallel-tasks | 並列実行 | 並列実行が有益な場合にrapid-buildから呼び出される |
+| security-scan | Step 6 | 包括的スキャンのためにrapid-buildから呼び出される |
+| test-runner | Step 7 | ビルド/テスト実行時に自動テストスキルを利用 |
 | quality-rules | 並走 | L2がStep 0-3で品質ルールをリアルタイム適用 |
-| safety-net | 統合 | L3がStep 4の品質ゲートと統合。確定的チェッカーを共有 |
+| review-guard | 統合 | L3がStep 4の品質ゲートと統合。確定的チェッカーを共有 |
 
 ## このスキルがやらないこと
 

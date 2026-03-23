@@ -74,7 +74,7 @@ Client lessons > Skill lessons > Global rules（具体的が優先）
 | スキル | 関係 | 説明 |
 |--------|------|------|
 | quality-rules (L2) | 還流先 | owner承認後にL2のルールを追加 |
-| safety-net (L3) | 入力 | L3の捕捉結果を学習候補に含める |
+| review-guard (L3) | 入力 | L3の捕捉結果を学習候補に含める |
 | decision-capture | T2トリガー | owner指摘検出の3ステップ目 |
 | session-protocol | T3/T4トリガー | session-endフロー + 朝レポートフロー |
 | skill-upgrade | Q10基準 | 各スキルのlessons/存在とleak-learner接続を検証 |
@@ -131,7 +131,7 @@ corrections.jsonlのパス・quality-rules.yamlのパス・ルール上限はCon
 | スキル | 関係 | 説明 |
 |--------|------|------|
 | quality-rules (L2) | 還流先 | owner承認後にL2のルールを追加 |
-| safety-net (L3) | 入力 | L3の捕捉結果を学習候補に含める |
+| review-guard (L3) | 入力 | L3の捕捉結果を学習候補に含める |
 | decision-capture | T2トリガー | owner指摘検出の3ステップ目 |
 | session-protocol | T3/T4トリガー | session-endフロー + 朝レポートフロー |
 | skill-upgrade | Q10基準 | 各スキルのlessons/存在とleak-learner接続を検証 |
