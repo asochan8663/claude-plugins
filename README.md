@@ -7,7 +7,7 @@ Production-grade skills for quality, security, workflow automation, and content 
 ## Quick Start
 
 ```bash
-/plugin marketplace add asochan8663/claude-plugins
+/plugin marketplace add asochan-ai/claude-plugins
 /plugin install super-plan@asochan-ai
 ```
 

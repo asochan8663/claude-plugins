@@ -76,7 +76,7 @@ Claude:
 
 ```bash
 # 1. マーケットプレースを登録（1回だけ）
-/plugin marketplace add asochan8663/claude-plugins
+/plugin marketplace add asochan-ai/claude-plugins
 
 # 2. おすすめセット（全部入れても軽い）
 /plugin install super-plan@asochan-ai
@@ -181,4 +181,4 @@ A: はい。既に設計書（PLAN_*.md）があれば、rapid-buildに直接渡
 ## フィードバック
 
 問題があればGitHub Issuesへ:
-https://github.com/asochan8663/claude-plugins/issues
+https://github.com/asochan-ai/claude-plugins/issues

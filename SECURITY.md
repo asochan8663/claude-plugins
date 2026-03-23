@@ -7,7 +7,7 @@ If you discover a security issue in these plugins, please report it via GitHub I
 ## Verification
 
 To verify you have the official plugins:
-- Repository: `asochan8663/claude-plugins`
+- Repository: `asochan-ai/claude-plugins`
 - Marketplace name: `asochan-ai`
 - All other repositories claiming to be "asochan-ai" plugins are unauthorized.
 
