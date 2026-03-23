@@ -17,7 +17,7 @@
     {
       "name": "quality-rules",
       "source": "./plugins/quality-rules",
-      "description": "Zero Leak L2: Enforce quality rules during implementation. Shift-left quality — write it right the first time.",
+      "description": "Zero Leak L2: Enforce quality rules during implementation. Shift-left quality.",
       "version": "1.0.0",
       "category": "development"
     },
@@ -31,9 +31,58 @@
     {
       "name": "security-audit",
       "source": "./plugins/security-audit",
-      "description": "3-stage security audit: pattern scan + dependency check + AI attacker analysis with parallel agents.",
+      "description": "3-stage security audit: pattern scan + dependency check + AI attacker analysis.",
       "version": "1.0.0",
       "category": "security"
+    },
+    {
+      "name": "super-plan",
+      "source": "./plugins/super-plan",
+      "description": "Evidence-based design docs before code. Research, architecture, task breakdown with stakeholder approval gate.",
+      "version": "1.0.0",
+      "category": "workflow"
+    },
+    {
+      "name": "rapid-build",
+      "source": "./plugins/rapid-build",
+      "description": "Execute approved design docs with baseline reuse, config-first, parallel agents, and quality gates.",
+      "version": "1.0.0",
+      "category": "workflow"
+    },
+    {
+      "name": "verify",
+      "source": "./plugins/verify",
+      "description": "Project-wide quality gate. Structure, tasks, security, git, and memory in one check.",
+      "version": "1.0.0",
+      "category": "development"
+    },
+    {
+      "name": "multi-agent",
+      "source": "./plugins/multi-agent",
+      "description": "Parallelize large tasks with Agent Teams. Auto-detect when 5+ independent tasks benefit from parallel execution.",
+      "version": "1.0.0",
+      "category": "workflow"
+    },
+    {
+      "name": "presentation-architect",
+      "source": "./plugins/presentation-architect",
+      "description": "Design and generate professional slide decks. Brand-aware, quality-gated, multi-engine routing.",
+      "version": "1.0.0",
+      "category": "content"
+    },
+    {
+      "name": "frontend-slides",
+      "source": "./plugins/frontend-slides",
+      "description": "HTML slide generation engine. Full inline HTML with 12 style presets. Called by presentation-architect.",
+      "version": "1.0.0",
+      "category": "content"
+    },
+    {
+      "name": "svg-diagram",
+      "source": "./plugins/svg-diagram",
+      "description": "Generate SVG diagrams with design system support. Type x color separation.",
+      "version": "1.0.0",
+      "category": "content"
     }
   ]
 }
