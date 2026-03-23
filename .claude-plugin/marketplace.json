@@ -141,8 +141,8 @@
       "category": "content"
     },
     {
-      "name": "ready",
-      "source": "./plugins/ready",
+      "name": "kickoff",
+      "source": "./plugins/kickoff",
       "description": "Prepare workspace: branch, status, prior work check.",
       "version": "1.0.0",
       "category": "workflow"

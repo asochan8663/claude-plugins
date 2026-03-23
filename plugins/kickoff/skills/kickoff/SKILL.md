@@ -1,8 +1,8 @@
 ---
-name: ready
-description: "作業開始の準備を自動化。ブランチ作成・状態確認・前回の未完了作業検出。Prepare workspace: branch creation, status check, prior work detection. 「ready」「start」「開発開始」「作業開始」等で起動。"
+name: kickoff
+description: "作業開始の準備を自動化。ブランチ作成・状態確認・前回の未完了作業検出。Prepare workspace: branch creation, status check, prior work detection. 「kickoff」「start」「開発開始」「作業開始」等で起動。"
 triggers:
-  - "ready"
+  - "kickoff"
   - "start"
   - "開発開始"
   - "作業開始"
@@ -10,7 +10,7 @@ triggers:
   - "始めて"
 ---
 
-# Ready — 作業開始スキル
+# Kickoff — 作業開始スキル
 
 新しい作業の開始を自動化する: 現在の状態確認 → ブランチ作成 → 作業開始可能な状態にする。
 
@@ -142,8 +142,8 @@ git checkout -b {prefix}/{task-name}
 
 | 連携スキル | 関係 | トリガー |
 |-----------|------|---------|
-| super-plan | 前工程 | super-plan承認後にreadyが自動起動 |
-| rapid-build | 後工程 | ready完了後にrapid-buildが実装を開始 |
+| super-plan | 前工程 | super-plan承認後にkickoffが自動起動 |
+| rapid-build | 後工程 | kickoff完了後にrapid-buildが実装を開始 |
 | launch-check | 後工程 | 作業完了後にlaunch-checkで品質チェック・マージ・push |
 | pre-check | 連携 | Step 1で影響範囲・過去インシデントを調査（pre-checkがある場合） |
 | leak-learner | 学習 | lessons/がある場合、ユーザー指摘を記録（オプション） |

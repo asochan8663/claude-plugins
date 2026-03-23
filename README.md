@@ -20,7 +20,7 @@ Production-grade skills for quality defense, workflow automation, skill creation
 | **rapid-build** | Execute approved plans with baseline reuse and quality gates |
 | **execution-strategy** | Auto-select optimal execution method after planning |
 | **multi-agent** | Parallelize 5+ tasks with Agent Teams |
-| **ready** | Prepare workspace: branch creation, status check, prior work detection |
+| **kickoff** | Prepare workspace: branch creation, status check, prior work detection |
 | **launch-check** | Quality gate before merge: test, security audit, approval, push |
 | **health-check** | Project-wide health check: git status, open PRs, security scan |
 
