@@ -1,5 +1,5 @@
 ---
-name: merge-guard
+name: ship-it
 description: "作業完了時の品質チェック→マージ→push。セキュリティ・テスト・承認ゲートを自動化。Quality gate before merge: test-runner, security-scan, approval, merge+push. 「launch-check」「ship」「完了」「マージ」「出荷」等で起動。"
 triggers:
   - "launch-check"
