@@ -1,6 +1,6 @@
 # @asochan-ai — Claude Code Skills
 
-Production-grade skills for quality, security, workflow automation, and content creation.
+Production-grade skills for quality defense, workflow automation, skill creation, and content.
 
 **Works on 35+ platforms**: Claude Code, Codex CLI, Cursor, Gemini CLI, GitHub Copilot, and any tool that reads SKILL.md.
 
@@ -11,42 +11,53 @@ Production-grade skills for quality, security, workflow automation, and content 
 /plugin install super-plan@asochan-ai
 ```
 
-## Skills
+## Skills (22)
 
-### Workflow
+### Workflow (6)
 | Skill | What it does |
 |-------|-------------|
-| **super-plan** | Evidence-based design docs before code. Research → architecture → task breakdown → approval gate |
-| **rapid-build** | Execute approved plans with baseline reuse, config-first, parallel agents, and quality gates |
-| **multi-agent** | Parallelize 5+ independent tasks with Agent Teams |
+| **super-plan** | 4 parallel research agents → evidence-based design doc → approval gate |
+| **rapid-build** | Execute approved plans with baseline reuse and quality gates |
+| **start** | Branch creation, state check, workspace prep |
+| **ship** | Security check → verification → merge and push |
+| **execution-strategy** | Auto-select optimal execution method after planning |
+| **multi-agent** | Parallelize 5+ tasks with Agent Teams |
 
-### Quality & Security
+### Zero Leak Quality Defense (7)
+| Skill | Layer | What it does |
+|-------|-------|-------------|
+| **pre-check** | L1 | Map blast radius before starting |
+| **quality-rules** | L2 | Enforce rules during implementation |
+| **safety-net** | L3 | Independent inspector before presenting to user |
+| **leak-learner** | L5 | Semi-auto learning from user corrections |
+| **auto-test** | — | Auto-detect and run test frameworks |
+| **security-audit** | — | 3-stage audit with parallel attacker agents |
+| **verify** | — | Project-wide quality gate |
+
+### Skill Creation (2)
 | Skill | What it does |
 |-------|-------------|
-| **pre-check** | L1: Map blast radius, quality rules, and past incidents before starting |
-| **quality-rules** | L2: Enforce quality rules during implementation — write it right the first time |
-| **auto-test** | Auto-detect test frameworks (pytest, vitest, jest, go, cargo) and run tests |
-| **security-audit** | 3-stage audit: pattern scan + dependency check + AI attacker analysis |
-| **verify** | Project-wide quality gate: structure, tasks, security, git in one check |
+| **neo-skill-creator** | Create Q1-Q10 compliant skills from scratch |
+| **skill-upgrade** | Upgrade existing skills to production quality |
 
-### Content
+### Development (3)
 | Skill | What it does |
 |-------|-------------|
-| **presentation-architect** | Design and route professional slide decks with brand awareness |
-| **frontend-slides** | HTML slide generation engine with 12 style presets |
-| **svg-diagram** | Generate SVG diagrams with type × color design system |
+| **auto-browser** | Browser automation with 5-min rule and CDP fallback |
+| **incident-triage-lite** | Incident logging and similar-incident search |
+| **research-organizer** | Detect folder bloat, auto-organize |
 
-## Zero Leak Philosophy
+### Learning (1)
+| Skill | What it does |
+|-------|-------------|
+| **plan-to-study** | Generate study guides from design docs |
 
-Layered defense — catch issues at the earliest possible stage:
-
-```
-L1 pre-check      → Map the battlefield
-L2 quality-rules   → Build it right the first time
-L3 auto-test       → Catch what slipped through
-    security-audit → Find what tests don't cover
-L4 verify          → Final quality gate
-```
+### Content (3)
+| Skill | What it does |
+|-------|-------------|
+| **presentation-architect** | Design and generate slide decks |
+| **frontend-slides** | HTML slide engine with 12 presets |
+| **svg-diagram** | SVG diagrams with type × color system |
 
 ## License
 
