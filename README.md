@@ -21,7 +21,7 @@ Production-grade skills for quality defense, workflow automation, skill creation
 | **execution-strategy** | Auto-select optimal execution method after planning |
 | **parallel-tasks** | Parallelize 5+ tasks with Agent Teams |
 | **prep-workspace** | Prepare workspace: branch creation, status check, prior work detection |
-| **merge-guard** | Quality gate before merge: test, security audit, approval, push |
+| **ship-it** | Quality gate before merge: test, security audit, approval, push |
 | **project-checkup** | Project-wide health check: git status, open PRs, security scan |
 
 ### Zero Leak Quality Defense (6)
