@@ -121,7 +121,7 @@ Non-Goalsを定義した後、各Non-Goalに対して「本当にスコープ外
 - ドメインに関する既存ドキュメントを検索
 - **Deployment Target調査**（必須）:
   1. 「どのリポに作るべきか？」— 拡販/プロダクト=共有リポ、個人運用=個人リポ。worktree-workflow.mdの自動判定テーブルを参照
-  2. 「外部通知があるか？」— Slack/Email/Webhook → テスト環境（#通知テスト等）の特定
+  2. 「外部通知があるか？」— Slack/Email/Webhook → テスト環境（テストチャネル等）の特定
   3. 「必要なSecret/権限は？」— 既存のGitHub Secrets・Slack App設定を検索
 - 出力:
   1. 「制約一覧」— 守らなければならない決定/ルール
